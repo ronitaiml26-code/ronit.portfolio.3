@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronit Kumar Singh | Portfolio & Prompt Library</title>
+    <meta name="description" content="Portfolio of Ronit Kumar Singh - B.Tech First Year Student, Aspiring Data Analyst, Future Startup Founder, Social Media Marketer, and Prompt Engineering Learner.">
+    
+    <!-- Google Fonts: Space Grotesk (Headings) & Poppins (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Background Ambient Glow & Floating Shapes -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+    <div class="ambient-glow glow-3"></div>
+    <div class="bg-grid-pattern"></div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar-wrapper">
+        <nav class="navbar" id="navbar">
+            <div class="nav-container">
+                <a href="#home" class="logo" aria-label="Ronit Kumar Singh Homepage">
+                    <span class="logo-symbol">&lt;</span>Ronit<span class="logo-accent">.dev</span><span class="logo-symbol">/&gt;</span>
+                </a>
+
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home" class="nav-link active"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="#about" class="nav-link"><i class="fa-regular fa-user"></i> About</a></li>
+                    <li><a href="#skills" class="nav-link"><i class="fa-solid fa-bolt"></i> Skills</a></li>
+                    <li><a href="#projects" class="nav-link"><i class="fa-solid fa-code"></i> Projects</a></li>
+                    <li><a href="#prompt-library" class="nav-link"><i class="fa-solid fa-brain"></i> Prompt Library</a></li>
+                    <li><a href="#contact" class="nav-link"><i class="fa-regular fa-envelope"></i> Contact</a></li>
+                </ul>
+
+                <div class="nav-actions">
+                    <a href="#contact" class="btn btn-sm btn-outline ripple-btn">Let's Connect</a>
+                    <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- 🏠 HOME / HERO SECTION -->
+        <section id="home" class="section hero-section">
+            <div class="container hero-container">
+                <div class="hero-text-col" data-animate="fade-up">
+                    <div class="hook-badge">
+                        <span class="pulse-dot"></span>
+                        <span class="hook-text">Learning Today. Building Tomorrow.</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        Hello, I'm <br>
+                        <span class="gradient-text">Ronit Kumar Singh</span>
+                    </h1>
+
+                    <div class="hero-subtitle-wrapper">
+                        <span class="subtitle-prefix">I am a </span>
+                        <span id="typed-text" class="typed-text"></span>
+                        <span class="typed-cursor">|</span>
+                    </div>
+
+                    <p class="hero-bio">
+                        Driven B.Tech student passionate about unraveling data insights, crafting high-performance AI prompts, and scaling digital brands with continuous curiosity and innovation.
+                    </p>
+
+                    <div class="hero-cta-group">
+                        <a href="#projects" class="btn btn-primary ripple-btn">
+                            <span>Explore Portfolio</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary ripple-btn">
+                            <span>Contact Me</span>
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </a>
+                    </div>
+
+                    <div class="hero-stats-strip">
+                        <div class="stat-pill">
+                            <i class="fa-solid fa-chart-line text-accent"></i>
+                            <div>
+                                <strong>20K+</strong>
+                                <span>IG Community</span>
+                            </div>
+                        </div>
+                        <div class="stat-pill">
+                            <i class="fa-solid fa-microchip text-accent"></i>
+                            <div>
+                                <strong>B.Tech</strong>
+                                <span>1st Year Undergrad</span>
+                            </div>
+                        </div>
+                        <div class="stat-pill">
+                            <i class="fa-solid fa-robot text-accent"></i>
+                            <div>
+                                <strong>AI Prompts</strong>
+                                <span>Engineered</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual-col" data-animate="zoom-in">
+                    <div class="profile-card-wrapper">
+                        <div class="profile-card-glow"></div>
+                        <div class="profile-card glass-card">
+                            <div class="profile-image-box">
+                                <img src="boy-student-1.jpg" alt="Ronit Kumar Singh" class="profile-photo" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop';">
+                                <div class="online-indicator" title="Always Learning"></div>
+                            </div>
+                            
+                            <div class="profile-card-info">
+                                <h3>Ronit Kumar Singh</h3>
+                                <p class="role-tag"><i class="fa-solid fa-graduation-cap"></i> B.Tech Student & Creator</p>
+                            </div>
+
+                            <!-- Floating badge 1 -->
+                            <div class="floating-tech-badge badge-top-left">
+                                <i class="fa-brands fa-python"></i>
+                                <span>Data & Analytics</span>
+                            </div>
+
+                            <!-- Floating badge 2 -->
+                            <div class="floating-tech-badge badge-bottom-right">
+                                <i class="fa-solid fa-brain"></i>
+                                <span>Prompt Engineering</span>
+                            </div>
+
+                            <!-- Floating badge 3 -->
+                            <div class="floating-tech-badge badge-top-right">
+                                <i class="fa-brands fa-instagram"></i>
+                                <span>20K+ Reach</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Scroll Indicator -->
+            <a href="#about" class="scroll-down-indicator" aria-label="Scroll to About Section">
+                <span class="mouse-icon">
+                    <span class="wheel"></span>
+                </span>
+                <span class="scroll-text">Scroll Down</span>
+            </a>
+        </section>
+
+        <!-- 👨 ABOUT ME SECTION -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header" data-animate="fade-up">
+                    <span class="section-tag"><i class="fa-regular fa-user"></i> About Me</span>
+                    <h2 class="section-title">Get to Know <span class="gradient-text">My Journey</span></h2>
+                    <p class="section-subtitle">A glimpse into my aspirations, foundational drive, and real-world execution.</p>
+                </div>
+
+                <div class="about-grid">
+                    <!-- Bio Narrative Card -->
+                    <div class="about-bio-card glass-card" data-animate="fade-up">
+                        <div class="card-glow-header">
+                            <span class="badge-code">HELLO WORLD</span>
+                            <span class="card-status-dot"></span>
+                        </div>
+                        <h3 class="about-greeting">Hello!</h3>
+                        <p class="lead-text">
+                            I'm <strong class="text-white">Ronit Kumar Singh</strong>, currently pursuing my <strong>B.Tech (First Year)</strong>.
+                        </p>
+                        <p>
+                            I'm deeply passionate about learning new technologies and continuously improving my skills. Whether it's dissecting data to find meaningful patterns, building high-accuracy generative AI prompts, or understanding digital marketing algorithms, I approach every challenge with curiosity and focus.
+                        </p>
+                        <div class="quote-box">
+                            <i class="fa-solid fa-quote-left quote-icon"></i>
+                            <p class="quote-text">"The best way to predict the future is to acquire skills to create it."</p>
+                        </div>
+                    </div>
+
+                    <!-- Goals Card -->
+                    <div class="about-goals-card glass-card" data-animate="fade-up">
+                        <h3 class="card-title"><i class="fa-solid fa-bullseye text-accent"></i> My Goals</h3>
+                        <div class="goals-list">
+                            <div class="goal-item">
+                                <div class="goal-icon-wrap">
+                                    <span class="goal-emoji">🎯</span>
+                                </div>
+                                <div class="goal-details">
+                                    <h4>Data Analyst Milestone</h4>
+                                    <p>Become a skilled Data Analyst by the end of my second year of B.Tech through continuous mastery of Python, SQL, Excel, and visualization frameworks.</p>
+                                    <div class="goal-progress-bar">
+                                        <div class="progress-fill" style="width: 45%;"></div>
+                                    </div>
+                                    <span class="goal-meta">Target: End of 2nd Year</span>
+                                </div>
+                            </div>
+
+                            <div class="goal-item">
+                                <div class="goal-icon-wrap">
+                                    <span class="goal-emoji">🚀</span>
+                                </div>
+                                <div class="goal-details">
+                                    <h4>Startup Founder Vision</h4>
+                                    <p>Build and scale an innovative tech startup after completing my B.Tech degree, solving real-world challenges through AI and data intelligence.</p>
+                                    <div class="goal-progress-bar">
+                                        <div class="progress-fill" style="width: 30%;"></div>
+                                    </div>
+                                    <span class="goal-meta">Target: Post B.Tech Graduation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interests Card -->
+                    <div class="about-interests-card glass-card" data-animate="fade-up">
+                        <h3 class="card-title"><i class="fa-solid fa-compass text-accent"></i> Core Interests</h3>
+                        <div class="interests-tags-grid">
+                            <div class="interest-tag">
+                                <i class="fa-solid fa-brain"></i>
+                                <span>Prompt Engineering</span>
+                            </div>
+                            <div class="interest-tag">
+                                <i class="fa-solid fa-chart-pie"></i>
+                                <span>Data Analytics</span>
+                            </div>
+                            <div class="interest-tag">
+                                <i class="fa-solid fa-laptop-code"></i>
+                                <span>Technology & AI</span>
+                            </div>
+                            <div class="interest-tag">
+                                <i class="fa-brands fa-instagram"></i>
+                                <span>Social Media Marketing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Media Experience Card -->
+                    <div class="about-social-exp-card glass-card" data-animate="fade-up">
+                        <div class="social-exp-header">
+                            <div class="social-icon-box">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                            <div>
+                                <h3 class="card-title mb-0">Social Media Experience</h3>
+                                <p class="card-meta">Proven Organic Growth & Audience Engagement</p>
+                            </div>
+                        </div>
+
+                        <div class="social-highlights">
+                            <div class="highlight-item">
+                                <div class="highlight-number">20K+</div>
+                                <div class="highlight-desc">Active followers grown on personal Instagram theme page</div>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-number">5+</div>
+                                <div class="highlight-desc">Friends helped to grow their Instagram pages to over 5,000+ followers each</div>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-number">100%</div>
+                                <div class="highlight-desc">Hands-on experience in content strategy, viral hooks & growth analytics</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 💻 SKILLS SECTION -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <div class="section-header" data-animate="fade-up">
+                    <span class="section-tag"><i class="fa-solid fa-bolt"></i> Learning Pathway</span>
+                    <h2 class="section-title">Currently <span class="gradient-text">Learning</span></h2>
+                    <p class="section-subtitle">Actively acquiring modern competencies to bridge analytical logic and innovative execution.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Skill 1: Prompt Engineering -->
+                    <div class="skill-card glass-card" data-animate="zoom-in">
+                        <div class="skill-card-top">
+                            <div class="skill-icon-wrap">
+                                <i class="fa-solid fa-brain"></i>
+                            </div>
+                            <span class="skill-badge active-badge">Primary Focus</span>
+                        </div>
+                        <h3 class="skill-title">Prompt Engineering</h3>
+                        <p class="skill-desc">
+                            Structuring context, personas, chain-of-thought, and few-shot examples to achieve optimal responses from modern LLMs like Claude, ChatGPT, and Gemini.
+                        </p>
+                        <div class="skill-meta-tags">
+                            <span>LLM Directives</span>
+                            <span>Context Design</span>
+                            <span>System Prompts</span>
+                        </div>
+                    </div>
+
+                    <!-- Skill 2: Writing Professional Emails -->
+                    <div class="skill-card glass-card" data-animate="zoom-in">
+                        <div class="skill-card-top">
+                            <div class="skill-icon-wrap">
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                            </div>
+                            <span class="skill-badge">Active Practice</span>
+                        </div>
+                        <h3 class="skill-title">Writing Professional Emails</h3>
+                        <p class="skill-desc">
+                            Crafting high-conversion cold outreach, structured executive summaries, business inquiries, and polite follow-ups that drive actionable responses.
+                        </p>
+                        <div class="skill-meta-tags">
+                            <span>Cold Outreach</span>
+                            <span>Business Etiquette</span>
+                            <span>Clarity & Impact</span>
+                        </div>
+                    </div>
+
+                    <!-- Skill 3: Creating PDFs using Gamma -->
+                    <div class="skill-card glass-card" data-animate="zoom-in">
+                        <div class="skill-card-top">
+                            <div class="skill-icon-wrap">
+                                <i class="fa-solid fa-file-pdf"></i>
+                            </div>
+                            <span class="skill-badge">Creative</span>
+                        </div>
+                        <h3 class="skill-title">Creating PDFs using Gamma</h3>
+                        <p class="skill-desc">
+                            Designing visually stunning presentations, pitch decks, and analytical PDF reports using Gamma App to communicate ideas clearly and professionally.
+                        </p>
+                        <div class="skill-meta-tags">
+                            <span>Gamma App</span>
+                            <span>Pitch Decks</span>
+                            <span>Visual Documents</span>
+                        </div>
+                    </div>
+
+                    <!-- Skill 4: Social Media Marketing -->
+                    <div class="skill-card glass-card" data-animate="zoom-in">
+                        <div class="skill-card-top">
+                            <div class="skill-icon-wrap">
+                                <i class="fa-solid fa-bullhorn"></i>
+                            </div>
+                            <span class="skill-badge proven-badge">20K+ Proven</span>
+                        </div>
+                        <h3 class="skill-title">Social Media Marketing</h3>
+                        <p class="skill-desc">
+                            Audience psychology, viral short-form content scripting, timing strategies, algorithmic optimization, and scaling organic accounts systematically.
+                        </p>
+                        <div class="skill-meta-tags">
+                            <span>Organic Growth</span>
+                            <span>Content Strategy</span>
+                            <span>Analytics</span>
+                        </div>
+                    </div>
+
+                    <!-- Skill 5: Learning Data Analytics -->
+                    <div class="skill-card glass-card" data-animate="zoom-in">
+                        <div class="skill-card-top">
+                            <div class="skill-icon-wrap">
+                                <i class="fa-solid fa-chart-simple"></i>
+                            </div>
+                            <span class="skill-badge active-badge">Core Milestone</span>
+                        </div>
+                        <h3 class="skill-title">Learning Data Analytics</h3>
+                        <p class="skill-desc">
+                            Foundations of exploratory data analysis, Microsoft Excel advanced functions & pivot charts, SQL queries, and Python data visualization techniques.
+                        </p>
+                        <div class="skill-meta-tags">
+                            <span>Excel Formulas</span>
+                            <span>Data Cleaning</span>
+                            <span>Visualization</span>
+                        </div>
+                    </div>
+
+                    <!-- Skill 6: Learning New AI Tools -->
+                    <div class="skill-card glass-card" data-animate="zoom-in">
+                        <div class="skill-card-top">
+                            <div class="skill-icon-wrap">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            </div>
+                            <span class="skill-badge">Exploring</span>
+                        </div>
+                        <h3 class="skill-title">Learning New AI Tools</h3>
+                        <p class="skill-desc">
+                            Exploring generative image tools, automated transcription, workflow enhancers, and research assistants to multiply productivity exponentially.
+                        </p>
+                        <div class="skill-meta-tags">
+                            <span>Generative AI</span>
+                            <span>Workflow Tools</span>
+                            <span>Productivity</span>
+                        </div>
+                    </div>
+
+                    <!-- Skill 7: Continuous Skill Development -->
+                    <div class="skill-card glass-card full-width-card" data-animate="zoom-in">
+                        <div class="skill-card-top">
+                            <div class="skill-icon-wrap">
+                                <i class="fa-solid fa-arrows-rotate"></i>
+                            </div>
+                            <span class="skill-badge highlight-badge">Core Philosophy</span>
+                        </div>
+                        <h3 class="skill-title">Continuous Skill Development</h3>
+                        <p class="skill-desc">
+                            A lifelong commitment to everyday iteration: coding, reading technical documentation, learning from mistakes, and turning emerging tech developments into practical capabilities.
+                        </p>
+                        <div class="skill-meta-tags">
+                            <span>Growth Mindset</span>
+                            <span>Hands-on Practice</span>
+                            <span>Future-Proofing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 🚀 PROJECTS SECTION -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-header" data-animate="fade-up">
+                    <span class="section-tag"><i class="fa-solid fa-code"></i> Portfolio Work</span>
+                    <h2 class="section-title">Showcase <span class="gradient-text">Projects</span></h2>
+                    <p class="section-subtitle">Upcoming academic, data analysis, and software engineering initiatives.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 01 -->
+                    <div class="project-card glass-card" data-animate="fade-up">
+                        <div class="project-header">
+                            <div class="project-indicator">
+                                <span class="badge-number">01</span>
+                                <span class="status-pill coming-soon">Coming Soon</span>
+                            </div>
+                            <div class="project-tech-icons">
+                                <i class="fa-solid fa-database" title="Data Analytics"></i>
+                            </div>
+                        </div>
+
+                        <div class="project-body">
+                            <h3 class="project-title">Project 01</h3>
+                            <div class="project-status-title">Coming Soon</div>
+                            <p class="project-desc">
+                                Future B.Tech projects will be showcased here.
+                            </p>
+                        </div>
+
+                        <div class="project-footer">
+                            <div class="project-tags">
+                                <span>#DataAnalytics</span>
+                                <span>#BTech</span>
+                            </div>
+                            <button class="btn-icon-link" disabled title="In Development">
+                                <i class="fa-solid fa-lock"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 02 -->
+                    <div class="project-card glass-card" data-animate="fade-up">
+                        <div class="project-header">
+                            <div class="project-indicator">
+                                <span class="badge-number">02</span>
+                                <span class="status-pill coming-soon">Coming Soon</span>
+                            </div>
+                            <div class="project-tech-icons">
+                                <i class="fa-solid fa-robot" title="AI Engineering"></i>
+                            </div>
+                        </div>
+
+                        <div class="project-body">
+                            <h3 class="project-title">Project 02</h3>
+                            <div class="project-status-title">Coming Soon</div>
+                            <p class="project-desc">
+                                Future B.Tech projects will be showcased here.
+                            </p>
+                        </div>
+
+                        <div class="project-footer">
+                            <div class="project-tags">
+                                <span>#AI</span>
+                                <span>#PromptEngineering</span>
+                            </div>
+                            <button class="btn-icon-link" disabled title="In Development">
+                                <i class="fa-solid fa-lock"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 03 -->
+                    <div class="project-card glass-card" data-animate="fade-up">
+                        <div class="project-header">
+                            <div class="project-indicator">
+                                <span class="badge-number">03</span>
+                                <span class="status-pill coming-soon">Coming Soon</span>
+                            </div>
+                            <div class="project-tech-icons">
+                                <i class="fa-solid fa-chart-line" title="Growth Analytics"></i>
+                            </div>
+                        </div>
+
+                        <div class="project-body">
+                            <h3 class="project-title">Project 03</h3>
+                            <div class="project-status-title">Coming Soon</div>
+                            <p class="project-desc">
+                                Future B.Tech projects will be showcased here.
+                            </p>
+                        </div>
+
+                        <div class="project-footer">
+                            <div class="project-tags">
+                                <span>#SocialMediaAnalytics</span>
+                                <span>#Automation</span>
+                            </div>
+                            <button class="btn-icon-link" disabled title="In Development">
+                                <i class="fa-solid fa-lock"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 04 -->
+                    <div class="project-card glass-card" data-animate="fade-up">
+                        <div class="project-header">
+                            <div class="project-indicator">
+                                <span class="badge-number">04</span>
+                                <span class="status-pill coming-soon">Coming Soon</span>
+                            </div>
+                            <div class="project-tech-icons">
+                                <i class="fa-solid fa-rocket" title="Startup Concept"></i>
+                            </div>
+                        </div>
+
+                        <div class="project-body">
+                            <h3 class="project-title">Project 04</h3>
+                            <div class="project-status-title">Coming Soon</div>
+                            <p class="project-desc">
+                                Future B.Tech projects will be showcased here.
+                            </p>
+                        </div>
+
+                        <div class="project-footer">
+                            <div class="project-tags">
+                                <span>#StartupBuild</span>
+                                <span>#FullStack</span>
+                            </div>
+                            <button class="btn-icon-link" disabled title="In Development">
+                                <i class="fa-solid fa-lock"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 🧠 PROMPT LIBRARY SECTION -->
+        <section id="prompt-library" class="section prompt-section">
+            <div class="container">
+                <div class="section-header" data-animate="fade-up">
+                    <span class="section-tag"><i class="fa-solid fa-brain"></i> AI Studio</span>
+                    <h2 class="section-title">Prompt <span class="gradient-text">Library</span></h2>
+                    <p class="section-subtitle">Store your best prompts, copy with one click, or draft and save new prompts directly in your browser.</p>
+                </div>
+
+                <div class="prompt-workspace-layout">
+                    <!-- SECTION 1: MY PROMPTS -->
+                    <div class="prompt-column my-prompts-col" data-animate="fade-up">
+                        <div class="column-title-bar">
+                            <div>
+                                <h3 class="column-title"><i class="fa-solid fa-layer-group text-accent"></i> My Prompts</h3>
+                                <p class="column-subtitle">Curated prompts ready for instant copy & paste</p>
+                            </div>
+                            <span class="counter-badge" id="prompt-count">4 Prompts</span>
+                        </div>
+
+                        <!-- Prompt Category Filter -->
+                        <div class="prompt-filter-bar">
+                            <button class="filter-chip active" data-filter="all">All</button>
+                            <button class="filter-chip" data-filter="data">Data Analysis</button>
+                            <button class="filter-chip" data-filter="email">Business Email</button>
+                            <button class="filter-chip" data-filter="social">Social Media</button>
+                            <button class="filter-chip" data-filter="gamma">Gamma / Presentation</button>
+                        </div>
+
+                        <!-- Prompts Container (Dynamically rendered & stored) -->
+                        <div class="prompts-grid" id="prompts-container">
+                            <!-- Injected by JavaScript -->
+                        </div>
+                    </div>
+
+                    <!-- SECTION 2: CREATE PROMPT (Interactive Editor) -->
+                    <div class="prompt-column create-prompt-col" data-animate="fade-up">
+                        <div class="create-prompt-card glass-card">
+                            <div class="column-title-bar">
+                                <div>
+                                    <h3 class="column-title"><i class="fa-solid fa-pen-nib text-accent"></i> Create Prompt</h3>
+                                    <p class="column-subtitle">Clean editor to build and store custom prompts</p>
+                                </div>
+                                <span class="status-pill active-badge">Interactive</span>
+                            </div>
+
+                            <form id="create-prompt-form" class="prompt-editor-form">
+                                <div class="form-group">
+                                    <label for="prompt-title">Prompt Title <span class="required">*</span></label>
+                                    <div class="input-with-icon">
+                                        <i class="fa-solid fa-heading input-icon"></i>
+                                        <input type="text" id="prompt-title" placeholder="e.g., Exploratory Data Cleaning Assistant" required maxlength="60">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="prompt-category">Category <span class="required">*</span></label>
+                                    <div class="input-with-icon">
+                                        <i class="fa-solid fa-tag input-icon"></i>
+                                        <select id="prompt-category" required>
+                                            <option value="data">Data Analysis</option>
+                                            <option value="email">Business Email</option>
+                                            <option value="social">Social Media</option>
+                                            <option value="gamma">Gamma / Presentation</option>
+                                            <option value="startup">Startup & Tech</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="label-row">
+                                        <label for="prompt-content">Prompt Area <span class="required">*</span></label>
+                                        <span class="char-count" id="prompt-char-count">0 / 1200</span>
+                                    </div>
+                                    <textarea id="prompt-content" rows="7" placeholder="Act as an expert data analyst. Given the following raw CSV dataset, identify missing values, recommend clean transformations..." required maxlength="1200"></textarea>
+                                </div>
+
+                                <div class="form-actions">
+                                    <button type="submit" class="btn btn-primary ripple-btn" id="save-prompt-btn">
+                                        <i class="fa-solid fa-floppy-disk"></i>
+                                        <span>Save Prompt (Frontend)</span>
+                                    </button>
+                                    <button type="button" class="btn btn-ghost" id="reset-prompt-btn">
+                                        <i class="fa-solid fa-rotate-left"></i>
+                                        <span>Clear</span>
+                                    </button>
+                                </div>
+                            </form>
+
+                            <div class="editor-tip-box">
+                                <i class="fa-solid fa-lightbulb"></i>
+                                <span><strong>Tip:</strong> Prompts saved here are stored in your browser's LocalStorage and will remain saved whenever you reload this page!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 📬 CONTACT SECTION -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-header" data-animate="fade-up">
+                    <span class="section-tag"><i class="fa-regular fa-envelope"></i> Let's Talk</span>
+                    <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+                    <p class="section-subtitle">Have a project, idea, or want to discuss data analytics and tech? Reach out anytime!</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Left: Contact Details & Info Cards -->
+                    <div class="contact-info-col" data-animate="fade-up">
+                        <!-- Email Card -->
+                        <div class="contact-card glass-card">
+                            <div class="contact-icon-circle">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Email Address</span>
+                                <h3 class="contact-value">@ronitaiml.26</h3>
+                                <p class="contact-hint">Open email client directly or click send message below</p>
+                            </div>
+                            <div class="contact-action-btn">
+                                <a href="mailto:@ronitaiml.26" class="btn btn-primary btn-sm ripple-btn" id="email-action-btn">
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                    <span>Send Message</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Phone Card -->
+                        <div class="contact-card glass-card">
+                            <div class="contact-icon-circle">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Contact Number</span>
+                                <h3 class="contact-value" id="phone-display">7479767400</h3>
+                                <p class="contact-hint">Available for call or WhatsApp messaging</p>
+                            </div>
+                            <div class="contact-action-btn button-group-sm">
+                                <a href="tel:7479767400" class="btn btn-secondary btn-sm ripple-btn">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>Call</span>
+                                </a>
+                                <a href="https://wa.me/917479767400" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm ripple-btn">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                    <span>WhatsApp</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Quick Socials Card -->
+                        <div class="contact-social-card glass-card">
+                            <h4>Connect On Social Platforms</h4>
+                            <p>Follow my journey or chat regarding social media growth.</p>
+                            <div class="social-links-row">
+                                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="mailto:@ronitaiml.26" class="social-icon-btn" aria-label="Email">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Interactive Message Form -->
+                    <div class="contact-form-col" data-animate="fade-up">
+                        <div class="contact-form-card glass-card">
+                            <h3 class="form-title">Send a Direct Inquiry</h3>
+                            <p class="form-subtitle">Fill out the details below to initiate communication.</p>
+
+                            <form id="contact-form" class="direct-contact-form">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="sender-name">Your Name <span class="required">*</span></label>
+                                        <div class="input-with-icon">
+                                            <i class="fa-regular fa-user input-icon"></i>
+                                            <input type="text" id="sender-name" placeholder="e.g. Alex Sharma" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="sender-email">Your Email <span class="required">*</span></label>
+                                        <div class="input-with-icon">
+                                            <i class="fa-regular fa-envelope input-icon"></i>
+                                            <input type="email" id="sender-email" placeholder="e.g. alex@example.com" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="sender-subject">Subject</label>
+                                    <div class="input-with-icon">
+                                        <i class="fa-solid fa-tag input-icon"></i>
+                                        <input type="text" id="sender-subject" placeholder="e.g. Discussion on Data Analytics or Startup" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="sender-message">Message <span class="required">*</span></label>
+                                    <textarea id="sender-message" rows="5" placeholder="Hi Ronit, I would love to connect with you regarding..." required></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary btn-block ripple-btn">
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                    <span>Send Message via Mail Client</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Toast Notification (for copy & save events) -->
+    <div id="toast" class="toast" role="alert" aria-live="polite">
+        <i class="fa-solid fa-circle-check toast-icon"></i>
+        <span id="toast-message">Copied to clipboard!</span>
+    </div>
+
+    <!-- Floating Back to Top Button -->
+    <button id="back-to-top" class="back-to-top-btn" aria-label="Back to top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <span class="logo-symbol">&lt;</span>Ronit<span class="logo-accent">.dev</span><span class="logo-symbol">/&gt;</span>
+                    </a>
+                    <p class="footer-tagline">Learning Today. Building Tomorrow.</p>
+                </div>
+                <div class="footer-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#prompt-library">Prompt Library</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 Ronit Kumar Singh</p>
+                <p class="built-with">Built with Passion & Continuous Learning.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Typed.js from CDN (fallback included in script.js if offline) -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Custom Interactive JS -->
+    <script src="script.js"></script>
+</body>
+</html>
